@@ -1,0 +1,31 @@
+/* --- marquee system rotator settings --- */
+
+.marquee-rotator {position:absolute;}
+.marquee-rotator .screen {position:relative;top:0;left:0;overflow:hidden;}
+.marquee-rotator .main-img {display:none;position:absolute;top:0;left:0;z-index:0;border:0;}
+
+/* ---.marquee-rotator .preloader {position:absolute;top:50%;left:50%;width:126px;height:22px;margin-top:-11px;margin-left:-63px;-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;background:#000 url(/sr/images/loading2.gif) center no-repeat;background:rgba(0,0,0,.7)url(/sr/images/loading2.gif) center no-repeat;z-index:4;display:none;}--- */
+
+.marquee-rotator #timer {position:absolute;z-index:4;visibility:hidden;}
+
+.marquee-rotator .c-panel {z-index:7;}
+
+/* ---.marquee-rotator .thumbnails {display:inline;position:relative;overflow:hidden;}--- */
+.marquee-rotator .thumbnails ul {list-style:none;margin:0;padding:0;}
+.marquee-rotator .thumbnails li,.marquee-rotator .play-btn,.marquee-rotator .prev-btn,.marquee-rotator .next-btn {list-style:none;display:inline;float:left;overflow:hidden;cursor:pointer;}
+
+.marquee-rotator .thumbnails li.image {}
+.marquee-rotator .thumbnails li.image a,.marquee-rotator .thumbnails li.image img {display:block;}
+.marquee-rotator .thumbnails li * {display:none;}
+
+#rotator-tooltip {position:absolute;top:0;left:0;z-index:99999;display:none;}
+#rotator-tooltip .tt-img {display:none;}
+
+/* ---.marquee-rotator .thumbnails li div {width:825px;}
+.marquee-rotator .desc {position:absolute;bottom:0;left:0;z-index:6;overflow:hidden;visibility:hidden;background:#000;}
+.marquee-rotator .inner-bg {position:absolute;}
+.marquee-rotator .inner-text {position:absolute;padding:25px;z-index:2;}--- */
+
+.marquee-rotator #strip {display:block;position:absolute;top:0;left:0;z-index:0;overflow:hidden;}
+.marquee-rotator .content-box {display:none;position:absolute;top:0;left:0;overflow:hidden;}
+.marquee-rotator .block,.marquee-rotator .vpiece,.marquee-rotator .hpiece {position:absolute;z-index:2;}
